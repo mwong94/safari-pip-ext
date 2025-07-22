@@ -1,0 +1,78 @@
+# Xcode
+#
+# Build products
+build/
+DerivedData/
+*.xccheckout
+*.xcworkspace/xcuserdata/
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+
+# User settings
+*.xcuserdatad
+*.xcuserstate
+*.moved-aside
+*.swp
+
+# Workspace
+xcuserdata/
+*.xcscmblueprint
+
+# Swift Package Manager
+# Packages/ should be ignored because SPM resolves them on demand
+Packages/
+.build/
+
+# CocoaPods
+Pods/
+# If using the new CocoaPods integration in Xcode 12+
+# Comment out the next line if you check in Pods directory
+# Pods/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Bundler
+Gemfile.lock
+
+# CocoaPods generated workspace
+*.xcworkspace
+
+# Xcode project metadata
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+!default.perspectivev3
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# SwiftUI Previews
+.swiftpm/xpm-xcode-project/
+.swiftpm/xpm-sandbox/
+
+# macOS file metadata
+.DS_Store
+
+# Crash reports
+*.crash
+
+# Temporary files
+*~
+*.swp
+*.lock
+
+# IDE-specific
+.vscode/
+.idea/
+
+# Other
+*.orig
+*.patch
